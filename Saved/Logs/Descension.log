@@ -740,4 +740,50 @@ LogInit: Object subsystem initialized
 [2017.01.31-14.30.05:803][230]LogWorld: Bringing up level for play took: 0.004332
 [2017.01.31-14.30.05:804][230]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.566
 [2017.01.31-14.30.05:817][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.01.31-14.30.11:656][891]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:Per
+[2017.01.31-14.30.11:656][891]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.31-14.30.11:717][891]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.31-14.30.14:079][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/Git/Descension/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.31-14.30.15:007][159]LogSavePackage: Save=911.34ms
+[2017.01.31-14.30.15:007][159]LogSavePackage: Moving 'D:/Git/Descension/Saved/FirstPersonExampleMapA484E44149A6E8D7B5F78B97F1524152.tmp' to 'D:/Git/Descension/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.01.31-14.30.15:009][159]LogSavePackage:Display: Finished SavePackage D:/Git/Descension/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.01.31-14.30.15:026][159]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.989
+[2017.01.31-14.30.15:047][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Chest_Blueprint" FILE="D:/Git/Descension/Content/FirstPersonBP/Blueprints/Chest_Blueprint.uasset" SILENT=true
+[2017.01.31-14.30.15:069][159]LogSavePackage: Save=19.84ms
+[2017.01.31-14.30.15:069][159]LogSavePackage: Moving 'D:/Git/Descension/Saved/Chest_BlueprintA917C76F409B82AB465856984ED6AD08.tmp' to 'D:/Git/Descension/Content/FirstPersonBP/Blueprints/Chest_Blueprint.uasset'
+[2017.01.31-14.30.15:070][159]LogSavePackage:Display: Finished SavePackage D:/Git/Descension/Content/FirstPersonBP/Blueprints/Chest_Blueprint.uasset
+[2017.01.31-14.32.04:635][ 95]LogStaticMesh: Building static mesh Shape_Cone...
+[2017.01.31-14.32.04:643][ 95]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Shapes/Shape_Cone.Shape_Cone
+[2017.01.31-14.32.04:658][ 95]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2017.01.31-14.32.50:179][841]BlueprintLog: New page: Compile Destroyable
+[2017.01.31-14.32.50:523][841]BlueprintEditorCompileResults: Info [1211.57] Compile of Destroyable successful! [in 343 ms] (/Game/FirstPersonBP/Blueprints/Destroyable.Destroyable)
+[2017.01.31-14.34.29:360][956]BlueprintLog: New page: Compile Destroyable
+[2017.01.31-14.34.29:598][956]BlueprintEditorCompileResults: Info [1310.64] Compile of Destroyable successful! [in 238 ms] (/Game/FirstPersonBP/Blueprints/Destroyable.Destroyable)
+[2017.01.31-14.34.36:535][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.31-14.34.36:535][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.31-14.34.36:535][699]PIE: New page: SIE session: FirstPersonExampleMap (31 Jan 2017 14:34:36)
+[2017.01.31-14.34.36:536][699]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.01.31-14.34.36:554][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018489s)
+[2017.01.31-14.34.36:555][699]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.01.31-14.34.36:555][699]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2017.01.31-14.34.36:555][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019550s)
+[2017.01.31-14.34.36:619][699]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.01.31-14.34.36:625][699]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.01.31-14.34.36
+[2017.01.31-14.34.36:626][699]LogWorld: Bringing up level for play took: 0.005358
+[2017.01.31-14.34.36:627][699]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.614
+[2017.01.31-14.34.36:632][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.31-14.34.37:720][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.31-14.34.37:770][813]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.01.31-14.34.51:660][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.31-14.34.51:700][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.31-14.35.19:102][686]BlueprintLog: New page: Compile Destroyable
+[2017.01.31-14.35.19:183][686]BlueprintEditorCompileResults: Info [1360.23] Compile of Destroyable successful! [in 80 ms] (/Game/FirstPersonBP/Blueprints/Destroyable.Destroyable)
+[2017.01.31-14.35.22:909][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.31-14.35.22:909][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.31-14.35.22:909][112]PIE: New page: SIE session: FirstPersonExampleMap (31 Jan 2017 14:35:22)
+[2017.01.31-14.35.22:909][112]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.01.31-14.35.22:924][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014999s)
+[2017.01.31-14.35.22:925][112]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.01.31-14.35.22:925][112]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2017.01.31-14.35.22:925][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015947s)
+[2017.01.31-14.35.22:982][112]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.01.31
