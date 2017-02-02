@@ -622,4 +622,109 @@ LogInit: Object subsystem initialized
 [2017.02.02-12.45.12:266][832]LogWorld: Bringing up level for play took: 0.005697
 [2017.02.02-12.45.12:267][832]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.829
 [2017.02.02-12.45.12:282][832]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.02.02-12.45.26:156][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP
+[2017.02.02-12.45.26:156][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.45.26:223][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.47.12:338][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.02-12.47.31:445][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/Unreal/Descension/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.02-12.47.34:501][530]LogSavePackage: Save=2877.02ms
+[2017.02.02-12.47.34:501][530]LogSavePackage: Moving 'D:/Unreal/Descension/Saved/FirstPersonExampleMapB18D45CD430C41F6CA7C978793A34991.tmp' to 'D:/Unreal/Descension/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.02.02-12.47.34:507][530]LogSavePackage:Display: Finished SavePackage D:/Unreal/Descension/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.02.02-12.47.39:576][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.02.02-12.47.39:661][642]LogSavePackage: Save=71.23ms
+[2017.02.02-12.47.39:661][642]LogSavePackage: Moving 'D:/Unreal/Descension/Saved/FirstPersonCharacter1A57A0664E15709EF8DDE2B3C58385DE.tmp' to 'D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.02.02-12.47.39:665][642]LogSavePackage:Display: Finished SavePackage D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.02.02-12.47.39:691][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/AICharacter_Blueprint" FILE="D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/AICharacter_Blueprint.uasset" SILENT=true
+[2017.02.02-12.47.39:737][642]LogSavePackage: Save=31.74ms
+[2017.02.02-12.47.39:737][642]LogSavePackage: Moving 'D:/Unreal/Descension/Saved/AICharacter_BlueprintD1EF759B4AF3A476EEDBAABA834B35AC.tmp' to 'D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/AICharacter_Blueprint.uasset'
+[2017.02.02-12.47.39:740][642]LogSavePackage:Display: Finished SavePackage D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/AICharacter_Blueprint.uasset
+[2017.02.02-12.47.39:743][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Chest_Blueprint" FILE="D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/Chest_Blueprint.uasset" SILENT=true
+[2017.02.02-12.47.39:774][642]LogSavePackage: Save=21.62ms
+[2017.02.02-12.47.39:774][642]LogSavePackage: Moving 'D:/Unreal/Descension/Saved/Chest_BlueprintE4F4616341DB780E8FB03B9A58957CFC.tmp' to 'D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/Chest_Blueprint.uasset'
+[2017.02.02-12.47.39:778][642]LogSavePackage:Display: Finished SavePackage D:/Unreal/Descension/Content/FirstPersonBP/Blueprints/Chest_Blueprint.uasset
+[2017.02.02-12.53.45:162][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.02-12.58.55:363][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.58.55:363][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.02-12.58.55:363][  7]PIE: New page: SIE session: FirstPersonExampleMap (2 Feb 2017 12:58:55)
+[2017.02.02-12.58.55:363][  7]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.02-12.58.55:390][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026484s)
+[2017.02.02-12.58.55:391][  7]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.02-12.58.55:391][  7]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2017.02.02-12.58.55:391][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027954s)
+[2017.02.02-12.58.55:427][  7]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.02-12.58.55:436][  7]LogInit: FAudioDevice initialized.
+[2017.02.02-12.58.55:475][  7]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.02-12.58.55:480][  7]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.02-12.58.55
+[2017.02.02-12.58.55:482][  7]LogWorld: Bringing up level for play took: 0.005918
+[2017.02.02-12.58.55:483][  7]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.032
+[2017.02.02-12.58.55:498][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.59.13:526][796]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint2
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-12.59.13:526][796]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-12.59.13:841][810]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-12.59.13:841][810]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-12.59.14:241][828]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-12.59.14:242][828]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-12.59.35:469][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.59.35:540][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.59.38:277][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.59.38:277][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.02-12.59.38:277][824]PIE: New page: SIE session: FirstPersonExampleMap (2 Feb 2017 12:59:38)
+[2017.02.02-12.59.38:277][824]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.02-12.59.38:298][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021274s)
+[2017.02.02-12.59.38:299][824]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.02-12.59.38:299][824]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.02.02-12.59.38:299][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022419s)
+[2017.02.02-12.59.38:355][824]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.02-12.59.38:363][824]LogInit: FAudioDevice initialized.
+[2017.02.02-12.59.38:402][824]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.02-12.59.38:406][824]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.02-12.59.38
+[2017.02.02-12.59.38:408][824]LogWorld: Bringing up level for play took: 0.005348
+[2017.02.02-12.59.38:409][824]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.958
+[2017.02.02-12.59.38:424][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-12.59.42:557][995]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint2
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-12.59.42:557][995]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-12.59.43:221][ 25]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-12.59.43:221][ 25]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-12.59.45:470][123]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint2
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-12.59.45:470][123]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-13.00.12:287][324]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint2
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-13.00.12:287][324]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-13.00.16:540][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-13.00.16:628][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-13.03.14:810][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-13.03.14:810][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.02-13.03.14:810][679]PIE: New page: SIE session: FirstPersonExampleMap (2 Feb 2017 13:03:14)
+[2017.02.02-13.03.14:810][679]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.02-13.03.14:833][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022958s)
+[2017.02.02-13.03.14:834][679]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.02-13.03.14:834][679]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2017.02.02-13.03.14:834][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024113s)
+[2017.02.02-13.03.14:873][679]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.02-13.03.14:881][679]LogInit: FAudioDevice initialized.
+[2017.02.02-13.03.14:922][679]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.02-13.03.14:927][679]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.02-13.03.14
+[2017.02.02-13.03.14:929][679]LogWorld: Bringing up level for play took: 0.005803
+[2017.02.02-13.03.14:930][679]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.524
+[2017.02.02-13.03.14:945][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.02-13.03.17:781][789]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint2
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-13.03.17:781][789]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-13.03.19:398][862]LogScript:Warning: Attempted to access Key via property Key, but Key is pending kill
+	Key_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Key_Blueprint
+	Function /Game/FirstPersonBP/Blueprints/Key_Blueprint.Key_Blueprint_C:ExecuteUbergraph_Key_Blueprint:0015
+[2017.02.02-13.03.19:398][862]PIE:Error: Error Blueprint Runtime Error: Attempted to access Key via property Key, but Key is pending kill from function: 'ExecuteUbergraph_Key_Blueprint' from node: DestroyComponent in graph: EventGraph in object: Key_Blueprint with description: Attempted to access Key via property Key, but Key is pending kill
+[2017.02.02-13.03.29:414][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Fir
