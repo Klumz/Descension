@@ -1,0 +1,400 @@
+﻿Log file open, 02/08/17 00:16:42
+LogInit:Display: Running engine for game: Inventory
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-235100562) SRandInit(-235100560).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.113529
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.08-00.16.42:903][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.08-00.16.42:903][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.08-00.16.42:920][  0]LogInit: Computer: MY-CAVE
+[2017.02.08-00.16.42:920][  0]LogInit: User: Michail
+[2017.02.08-00.16.42:920][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.08-00.16.42:920][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2017.02.08-00.16.42:921][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.08-00.16.42:921][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.08-00.16.42:921][  0]LogMemory: Process Physical Memory: 190.45 MB used, 190.45 MB peak
+[2017.02.08-00.16.42:921][  0]LogMemory: Process Virtual Memory: 195.38 MB used, 195.38 MB peak
+[2017.02.08-00.16.42:921][  0]LogMemory: Physical Memory: 3916.71 MB used, 16325.98 MB total
+[2017.02.08-00.16.42:921][  0]LogMemory: Virtual Memory: 553.60 MB used, 134217728.00 MB total
+[2017.02.08-00.16.43:252][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.02.08-00.16.43:580][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.08-00.16.43:982][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.02.08-00.16.43:982][  0]LogD3D11RHI:       8119/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.02.08-00.16.43:983][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.08-00.16.43:983][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.08-00.16.43:983][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.08-00.16.43:986][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.08-00.16.43:986][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.08-00.16.43:986][  0]LogWindows: EnumDisplayDevices:
+[2017.02.08-00.16.43:986][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.02.08-00.16.43:986][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.08-00.16.43:986][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.08-00.16.43:986][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.08-00.16.43:986][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.08-00.16.43:986][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.02.08-00.16.43:986][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.02.08-00.16.43:986][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.02.08-00.16.43:986][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.08-00.16.44:378][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.08-00.16.44:408][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.08-00.16.44:408][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (C:/Users/Michail/Documents/Unreal Projects/Inventory/Intermediate/Shaders/WorkingDirectory/29924/).
+[2017.02.08-00.16.44:408][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Michail/AppData/Local/Temp/UnrealShaderWorkingDir/4C3148604A294FABD26198B2DADBF952/'.
+[2017.02.08-00.16.44:408][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.08-00.16.46:452][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.08-00.16.46:458][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.08-00.16.46:464][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.08-00.16.46:470][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.08-00.16.46:476][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.08-00.16.46:483][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.08-00.16.46:489][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.08-00.16.46:494][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.08-00.16.46:499][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.08-00.16.46:504][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.08-00.16.46:509][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.08-00.16.46:520][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.08-00.16.46:520][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.08-00.16.46:521][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.08-00.16.46:592][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.08-00.16.46:597][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.08-00.16.46:603][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.08-00.16.46:608][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.08-00.16.46:615][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.08-00.16.46:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.08-00.16.47:475][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.08-00.16.47:908][  0]LogDerivedDataCache: Loaded boot cache 0.43s 48MB C:/Users/Michail/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.02.08-00.16.47:908][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Michail/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.02.08-00.16.47:909][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Michail/Documents/Unreal Projects/Inventory/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.08-00.16.47:909][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.08-00.16.47:909][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Michail/Documents/Unreal Projects/Inventory/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.08-00.16.47:909][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.08-00.16.47:960][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.08-00.16.47:972][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Michail/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.08-00.16.54:534][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.08-00.16.54:599][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.08-00.16.56:842][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.08-00.16.56:842][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.08-00.16.56:842][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.02.08-00.16.59:849][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
+[2017.02.08-00.17.00:053][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.047044 seconds
+[2017.02.08-00.17.00:066][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.02.08-00.17.00:066][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.02.08-00.17.00:066][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.08-00.17.00:102][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.08-00.17.02:710][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.08-00.17.02:714][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.08-00.17.12:729][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.08-00.17.14:229][  0]SourceControl: Info Source control is disabled
+[2017.02.08-00.17.14:293][  0]SourceControl: Info Source control is disabled
+[2017.02.08-00.17.14:332][  0]SourceControl: Info Source control is disabled
+[2017.02.08-00.17.14:351][  0]SourceControl: Info Source control is disabled
+[2017.02.08-00.17.15:561][  0]LogEngine: Initializing Engine...
+[2017.02.08-00.17.15:650][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.02.08-00.17.15:663][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.02.08-00.17.16:513][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.02.08-00.17.16:698][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.08-00.17.16:713][  0]LogInit: FAudioDevice initialized.
+[2017.02.08-00.17.16:731][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Michail/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.02.08-00.17.16:737][  0]LogInit: Texture streaming: Enabled
+[2017.02.08-00.17.16:971][  0]LogInit: Transaction tracking system initialized
+[2017.02.08-00.17.17:266][  0]BlueprintLog: New page: Editor Load
+[2017.02.08-00.17.18:177][  0]LocalizationService: Info Localization service is disabled
+[2017.02.08-00.17.18:804][  0]LogConsoleResponse:Display: 
+[2017.02.08-00.17.21:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/' took 0.01s
+[2017.02.08-00.17.21:046][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.02.08-00.17.21:046][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.08-00.17.22:447][  0]SourceControl: Info Source control is disabled
+[2017.02.08-00.17.22:497][  0]Cmd: MAP LOAD FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.08-00.17.22:523][  0]LightingResults: New page: Lighting Build
+[2017.02.08-00.17.22:693][  0]MapCheck: New page: Map Check
+[2017.02.08-00.17.22:693][  0]LightingResults: New page: Lighting Build
+[2017.02.08-00.17.24:394][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.08-00.17.25:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.08-00.17.25:038][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.08-00.17.25:074][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.505ms to complete.
+[2017.02.08-00.17.25:074][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.609
+[2017.02.08-00.17.26:381][  0]LogCollectionManager: Loaded 0 collections in 0.016388 seconds
+[2017.02.08-00.17.26:477][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Collections/' took 0.01s
+[2017.02.08-00.17.26:477][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/Developers/Michail/Collections/' took 0.01s
+[2017.02.08-00.17.26:477][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/Collections/' took 0.01s
+[2017.02.08-00.17.26:477][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.08-00.17.26:486][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2047 classes and 369 folders.
+[2017.02.08-00.17.26:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.08-00.17.26:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.017 s
+[2017.02.08-00.17.26:536][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.02.08-00.17.26:556][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.02.08-00.17.27:589][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.02.08-00.17.27:653][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.02.08-00.17.27:940][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.08-00.17.28:091][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.08-00.17.28:179][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.02.08-00.17.28:179][  0]LogLoad: Full Startup: 47.09 seconds (BP compile: 0.62 seconds)
+[2017.02.08-00.17.28:179][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.08-00.17.28:179][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.08-00.17.28:224][  0]LogOcInput: OculusInput pre-init called
+[2017.02.08-00.17.28:422][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.08-00.17.29:132][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.02.08-00.17.29:640][  2]LogAssetRegistry: Asset discovery search completed in 29.8127 seconds
+[2017.02.08-00.17.29:648][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.08-00.17.29:648][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.007466 seconds (updated 0 objects)
+[2017.02.08-00.28.46:537][414]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 111 classes and 0 folders.
+[2017.02.08-00.30.09:257][125]LogEditorTransaction: Undo Edit Properties
+[2017.02.08-00.30.59:360][173]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.095
+[2017.02.08-00.30.59:369][173]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/UMG/InventorySlot] ([1] browsable assets)...
+[2017.02.08-00.30.59:369][173]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/UMG/InventorySlot]
+[2017.02.08-00.30.59:422][173]LogSavePackage: Save=39.22ms
+[2017.02.08-00.30.59:422][173]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/InventorySlot_Auto1ED9A13634332216ACE10A99BD90F9069.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/InventorySlot_Auto1.uasset'
+[2017.02.08-00.30.59:431][173]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/InventorySlot_Auto1.uasset
+[2017.02.08-00.30.59:431][173]LogFileHelpers: Auto-saving content packages took 0.064
+[2017.02.08-00.32.51:941][  5]Cmd: TRANSACTION UNDO
+[2017.02.08-00.32.51:941][  5]LogEditorTransaction: Undo Edit Specified Color
+[2017.02.08-00.33.15:345][498]Cmd: TRANSACTION REDO
+[2017.02.08-00.33.15:345][498]LogEditorTransaction: Redo Edit Specified Color
+[2017.02.08-00.33.17:218][720]Cmd: TRANSACTION UNDO
+[2017.02.08-00.33.17:218][720]LogEditorTransaction: Undo Edit Specified Color
+[2017.02.08-00.34.39:108][203]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-00.34.39:238][203]BlueprintEditorCompileResults: Info [1078.14] Compile of GameHUD successful! [in 124 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-00.34.39:821][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/GameHUD" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset" SILENT=true
+[2017.02.08-00.34.39:841][258]LogSavePackage: Save=14.02ms
+[2017.02.08-00.34.39:841][258]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUDFBA8786B462FE4FA6C99D1AEF8183880.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset'
+[2017.02.08-00.34.39:843][258]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset
+[2017.02.08-00.36.59:236][ 98]BlueprintLog: New page: Compile PickupText
+[2017.02.08-00.36.59:296][ 98]BlueprintEditorCompileResults: Info [1218.21] Compile of PickupText successful! [in 60 ms] (/Game/FirstPersonBP/Blueprints/UMG/PickupText.PickupText)
+[2017.02.08-00.43.40:363][325]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.015
+[2017.02.08-00.43.40:364][325]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/UMG/PickupText] ([1] browsable assets)...
+[2017.02.08-00.43.40:364][325]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/UMG/PickupText]
+[2017.02.08-00.43.40:381][325]LogSavePackage: Save=11.50ms
+[2017.02.08-00.43.40:381][325]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/PickupText_Auto228C8055446CC0CB7E1985FAB260B0C70.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/PickupText_Auto2.uasset'
+[2017.02.08-00.43.40:381][325]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/PickupText_Auto2.uasset
+[2017.02.08-00.43.40:381][325]LogFileHelpers: Auto-saving content packages took 0.018
+[2017.02.08-00.44.03:582][272]BlueprintLog: New page: Compile PickupText
+[2017.02.08-00.44.03:662][272]BlueprintEditorCompileResults: Info [1642.57] Compile of PickupText successful! [in 79 ms] (/Game/FirstPersonBP/Blueprints/UMG/PickupText.PickupText)
+[2017.02.08-00.44.05:299][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/PickupText" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/PickupText.uasset" SILENT=true
+[2017.02.08-00.44.05:313][440]LogSavePackage: Save=12.07ms
+[2017.02.08-00.44.05:313][440]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/PickupText2D8AE7D7402367E71B9AB09A785B6641.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/PickupText.uasset'
+[2017.02.08-00.44.05:315][440]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/PickupText.uasset
+[2017.02.08-00.44.51:384][960]Cmd: TRANSACTION UNDO
+[2017.02.08-00.44.51:384][960]LogEditorTransaction: Undo Set Binding
+[2017.02.08-00.44.53:025][153]Cmd: TRANSACTION REDO
+[2017.02.08-00.44.53:025][153]LogEditorTransaction: Redo Set Binding
+[2017.02.08-00.45.57:014][237]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_GameHUD_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.02.08-00.46.41:298][872]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_GameHUD_C - Previous (StructProperty) Current(IntProperty) for package:  FObjectReader
+[2017.02.08-00.46.59:656][665]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-00.46.59:726][665]BlueprintEditorCompileResults: Info [1818.64] Compile of GameHUD successful! [in 69 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-00.47.01:100][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/GameHUD" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset" SILENT=true
+[2017.02.08-00.47.01:121][828]LogSavePackage: Save=16.34ms
+[2017.02.08-00.47.01:121][828]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUDFB16CFAC428119FCFE36AB9659E0DC9F.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset'
+[2017.02.08-00.47.01:122][828]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset
+[2017.02.08-00.48.30:994][402]LogEditorTransaction: Undo Add Node
+[2017.02.08-00.50.36:010][379]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-00.50.36:081][379]BlueprintEditorCompileResults: Info [2034.99] Compile of GameHUD successful! [in 69 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-00.52.47:787][285]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-00.52.47:855][285]BlueprintEditorCompileResults: Info [2166.77] Compile of GameHUD successful! [in 67 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-00.52.48:353][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/GameHUD" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset" SILENT=true
+[2017.02.08-00.52.48:379][343]LogSavePackage: Save=21.06ms
+[2017.02.08-00.52.48:379][343]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUD65FC6DA44246E78C15818393C206C5DE.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset'
+[2017.02.08-00.52.48:381][343]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset
+[2017.02.08-00.54.22:163][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.016
+[2017.02.08-00.54.22:164][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/UMG/GameHUD] ([1] browsable assets)...
+[2017.02.08-00.54.22:164][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/UMG/GameHUD]
+[2017.02.08-00.54.22:193][ 63]LogSavePackage: Save=27.35ms
+[2017.02.08-00.54.22:193][ 63]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUD_Auto37DF1483A41C7F703BDED7A88D8050F2E.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/GameHUD_Auto3.uasset'
+[2017.02.08-00.54.22:194][ 63]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/GameHUD_Auto3.uasset
+[2017.02.08-00.54.22:194][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/UMG/PickupText] ([1] browsable assets)...
+[2017.02.08-00.54.22:194][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/UMG/PickupText]
+[2017.02.08-00.54.22:212][ 63]LogSavePackage: Save=12.43ms
+[2017.02.08-00.54.22:212][ 63]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/PickupText_Auto39EB0D0B74E949A7DD6F725B90D64BACF.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/PickupText_Auto3.uasset'
+[2017.02.08-00.54.22:213][ 63]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/PickupText_Auto3.uasset
+[2017.02.08-00.54.22:213][ 63]LogFileHelpers: Auto-saving content packages took 0.049
+[2017.02.08-00.54.50:666][860]LogEditorTransaction: Undo Rename Node
+[2017.02.08-00.54.52:459][ 71]LogEditorTransaction: Undo Add Node
+[2017.02.08-00.54.53:689][216]LogEditorTransaction: Undo Delete current selection
+[2017.02.08-00.54.56:043][495]LogEditorTransaction: Undo Move Node
+[2017.02.08-00.54.56:506][548]LogEditorTransaction: Undo Add Node
+[2017.02.08-00.56.19:216][918]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-00.56.19:291][918]BlueprintEditorCompileResults: Info [2378.20] Compile of GameHUD successful! [in 74 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-00.56.20:345][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/GameHUD" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset" SILENT=true
+[2017.02.08-00.56.20:372][ 43]LogSavePackage: Save=23.92ms
+[2017.02.08-00.56.20:372][ 43]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUD2D7EA8EE49266CA4E221689D9C39AA47.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset'
+[2017.02.08-00.56.20:377][ 43]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset
+[2017.02.08-00.56.54:520][ 40]LogEditorTransaction: Undo Align Bottom
+[2017.02.08-00.56.54:822][ 73]LogEditorTransaction: Undo Align Right
+[2017.02.08-00.56.55:151][108]LogEditorTransaction: Undo Straighten Connection(s)
+[2017.02.08-00.56.55:479][144]LogEditorTransaction: Undo Align Top
+[2017.02.08-00.56.55:861][187]LogEditorTransaction: Undo Align Left
+[2017.02.08-00.56.56:444][254]LogEditorTransaction: Undo Create Pin Link
+[2017.02.08-00.56.58:120][451]LogEditorTransaction: Redo Create Pin Link
+[2017.02.08-00.56.58:610][507]LogEditorTransaction: Redo Align Left
+[2017.02.08-00.56.59:032][555]LogEditorTransaction: Undo Align Left
+[2017.02.08-00.57.12:712][180]LogEditorTransaction: Undo Align Right
+[2017.02.08-01.01.47:001][464]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-01.01.47:080][464]BlueprintEditorCompileResults: Info [2705.99] Compile of GameHUD successful! [in 79 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-01.03.09:453][503]LogEditorTransaction: Undo Move Node
+[2017.02.08-01.03.10:808][661]LogEditorTransaction: Undo Create Reroute Node
+[2017.02.08-01.05.38:125][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.017
+[2017.02.08-01.05.38:126][ 22]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/UMG/GameHUD] ([1] browsable assets)...
+[2017.02.08-01.05.38:126][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/UMG/GameHUD]
+[2017.02.08-01.05.38:160][ 22]LogSavePackage: Save=28.53ms
+[2017.02.08-01.05.38:160][ 22]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUD_Auto429A098B0414B9874F378E1A9CCF16B30.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/GameHUD_Auto4.uasset'
+[2017.02.08-01.05.38:161][ 22]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/GameHUD_Auto4.uasset
+[2017.02.08-01.05.38:161][ 22]LogFileHelpers: Auto-saving content packages took 0.035
+[2017.02.08-01.06.40:718][940]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-01.06.40:801][940]BlueprintEditorCompileResults: Info [2999.71] Compile of GameHUD successful! [in 82 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-01.09.49:244][ 28]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-01.09.49:324][ 28]BlueprintEditorCompileResults: Info [3188.24] Compile of GameHUD successful! [in 79 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-01.09.50:140][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/GameHUD" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset" SILENT=true
+[2017.02.08-01.09.50:173][123]LogSavePackage: Save=31.50ms
+[2017.02.08-01.09.50:173][123]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUD0DDB1707418BC3E25B2F609763A55904.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset'
+[2017.02.08-01.09.50:175][123]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset
+[2017.02.08-01.12.39:671][ 51]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-01.12.39:748][ 51]BlueprintEditorCompileResults: Info [3358.66] Compile of GameHUD successful! [in 77 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-01.12.40:287][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/GameHUD" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset" SILENT=true
+[2017.02.08-01.12.40:325][114]LogSavePackage: Save=32.51ms
+[2017.02.08-01.12.40:325][114]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUDCD11030F49D2041655B00D82ADA063A6.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset'
+[2017.02.08-01.12.40:326][114]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset
+[2017.02.08-01.13.08:862][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/UMG/GameHUD" FILE="C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset" SILENT=true
+[2017.02.08-01.13.08:894][399]LogSavePackage: Save=30.42ms
+[2017.02.08-01.13.08:894][399]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUD9A7CE0F54CDDAC13687E1BBB46082228.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset'
+[2017.02.08-01.13.08:896][399]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Content/FirstPersonBP/Blueprints/UMG/GameHUD.uasset
+[2017.02.08-01.15.54:631][315]LogSavePackage: Save=1527.92ms
+[2017.02.08-01.15.54:631][315]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/FirstPersonExampleMap_Auto5CB67212D402786163C4C2B9D73FAC046.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2017.02.08-01.15.54:632][315]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap
+[2017.02.08-01.15.54:634][315]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.718
+[2017.02.08-01.15.54:634][315]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.718
+[2017.02.08-01.15.54:635][315]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.02.08-01.15.54:650][315]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.02.08-01.15.54:650][315]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.02.08-01.15.54:717][315]LogSavePackage: Save=63.03ms
+[2017.02.08-01.15.54:717][315]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/FirstPersonCharacter_Auto5276B62314A739537DB90FBAA46781509.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2017.02.08-01.15.54:718][315]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset
+[2017.02.08-01.15.54:718][315]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.02.08-01.16.31:594][746]LogRenderer: Reallocating scene render targets to support 1528x900 (Frame:174976).
+[2017.02.08-01.18.10:654][960]LogEditorTransaction: Undo Add Component
+[2017.02.08-01.18.15:142][488]LogEditorTransaction: Undo Rename Event Dispatcher
+[2017.02.08-01.18.17:663][783]LogEditorTransaction: Undo Add New Event Dispatcher
+[2017.02.08-01.18.19:462][991]LogEditorTransaction: Undo Rename Variable
+[2017.02.08-01.18.21:120][184]LogEditorTransaction: Undo Add Variable
+[2017.02.08-01.18.21:715][250]LogEditorTransaction: Undo Move Node
+[2017.02.08-01.18.22:748][373]LogEditorTransaction: Redo Move Node
+[2017.02.08-01.18.23:285][436]LogEditorTransaction: Redo Add Variable
+[2017.02.08-01.18.24:091][526]LogEditorTransaction: Undo Add Variable
+[2017.02.08-01.25.56:292][913]LogSavePackage: Save=1018.38ms
+[2017.02.08-01.25.56:292][913]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/FirstPersonExampleMap_Auto69EF8C63A40B239D7B85CEAA6F5220FD1.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2017.02.08-01.25.56:293][913]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap
+[2017.02.08-01.25.56:295][913]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.083
+[2017.02.08-01.25.56:295][913]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.083
+[2017.02.08-01.25.56:296][913]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.02.08-01.25.56:306][913]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.02.08-01.25.56:306][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.02.08-01.25.56:370][913]LogSavePackage: Save=58.93ms
+[2017.02.08-01.25.56:370][913]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/FirstPersonCharacter_Auto6F8FCD8F3416E46B3369E66BB5E82BC2C.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset'
+[2017.02.08-01.25.56:371][913]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset
+[2017.02.08-01.25.56:371][913]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/UMG/GameHUD] ([1] browsable assets)...
+[2017.02.08-01.25.56:371][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/UMG/GameHUD]
+[2017.02.08-01.25.56:407][913]LogSavePackage: Save=30.48ms
+[2017.02.08-01.25.56:407][913]LogSavePackage: Moving 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/GameHUD_Auto6F632886549A6FEF2BB02DDB09080ED71.tmp' to 'C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/GameHUD_Auto6.uasset'
+[2017.02.08-01.25.56:408][913]LogSavePackage:Display: Finished SavePackage C:/Users/Michail/Documents/Unreal Projects/Inventory/Saved/Autosaves/Game/FirstPersonBP/Blueprints/UMG/GameHUD_Auto6.uasset
+[2017.02.08-01.25.56:408][913]LogFileHelpers: Auto-saving content packages took 0.112
+[2017.02.08-01.26.56:370][643]LogEditorTransaction: Undo Add Node
+[2017.02.08-01.26.58:784][931]LogEditorTransaction: Undo Delete current selection
+[2017.02.08-01.27.01:522][249]LogEditorTransaction: Redo Delete current selection
+[2017.02.08-01.27.04:072][544]LogEditorTransaction: Redo Add Node
+[2017.02.08-01.27.07:739][983]LogEditorTransaction: Undo Move Node
+[2017.02.08-01.27.08:336][ 46]LogEditorTransaction: Undo Add Node
+[2017.02.08-01.27.11:806][460]LogEditorTransaction: Redo Add Node
+[2017.02.08-01.27.13:065][608]LogEditorTransaction: Undo Add Node
+[2017.02.08-01.27.15:344][868]LogEditorTransaction: Redo Add Node
+[2017.02.08-01.27.18:727][264]LogEditorTransaction: Undo Add Node
+[2017.02.08-01.27.20:106][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.08-01.28.07:184][655]LogEditorTransaction: Undo Move Node
+[2017.02.08-01.28.08:799][835]LogBlueprint:Warning: Compiler Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.02.08-01.28.08:819][835]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.02.08-01.28.20:076][175]LogEditorTransaction: Undo Paste clipboard contents
+[2017.02.08-01.31.47:754][341]BlueprintLog: New page: Compile GameHUD
+[2017.02.08-01.31.48:058][341]BlueprintEditorCompileResults: Info [4506.97] Compile of GameHUD successful! [in 304 ms] (/Game/FirstPersonBP/Blueprints/UMG/GameHUD.GameHUD)
+[2017.02.08-01.31.59:581][649]BlueprintLog: New page: Compile InventorySlot
+[2017.02.08-01.31.59:934][649]BlueprintEditorCompileResults: Info [4518.85] Compile of InventorySlot successful! [in 353 ms] (/Game/FirstPersonBP/Blueprints/UMG/InventorySlot.InventorySlot)
+[2017.02.08-01.32.03:557][ 58]BlueprintLog: New page: Compile PickupText
+[2017.02.08-01.32.03:623][ 58]BlueprintEditorCompileResults: Info [4522.53] Compile of PickupText successful! [in 66 ms] (/Game/FirstPersonBP/Blueprints/UMG/PickupText.PickupText)
+[2017.02.08-01.32.12:299][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.08-01.32.12:299][ 59]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.08-01.32.12:299][ 59]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2017.02.08-01.32.12:372][ 59]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (1 blueprints)
+[2017.02.08-01.32.12:401][ 59]PIE: New page: PIE session: FirstPersonExampleMap (8 Feb 2017 01:32:12)
+[2017.02.08-01.32.12:401][ 59]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.08-01.32.12:416][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015135s)
+[2017.02.08-01.32.12:417][ 59]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.08-01.32.12:417][ 59]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2017.02.08-01.32.12:417][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015822s)
+[2017.02.08-01.32.12:452][ 59]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.08-01.32.12:457][ 59]LogInit: FAudioDevice initialized.
+[2017.02.08-01.32.12:602][ 59]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.08-01.32.12:606][ 59]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.08-01.32.12
+[2017.02.08-01.32.12:607][ 59]LogWorld: Bringing up level for play took: 0.003796
+[2017.02.08-01.32.12:676][ 59]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.02.08-01.32.12:676][ 59]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.667
+[2017.02.08-01.32.12:677][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.08-01.32.22:026][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.08-01.32.22:145][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.08-01.35.32:482][339]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0 or K2Node_Event /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0
+[2017.02.08-01.35.32:482][339]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0 or K2Node_Event /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0
+[2017.02.08-01.35.32:482][339]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0 or K2Node_Event /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0
+[2017.02.08-01.35.32:483][339]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0 or K2Node_Event /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0
+[2017.02.08-01.35.32:483][339]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.02.08-01.35.33:049][339]LogCrashTracker: 
+
+
+[2017.02.08-01.35.33:049][339]LogCrashTracker: 
+
+
+[2017.02.08-01.35.33:049][339]LogWindows:Error: === Critical error: ===
+Fatal error: [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2158] 
+Objects have the same fully qualified name but different paths.
+	New Object: K2Node_CustomEvent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0
+	Existing Object: K2Node_Event /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Event_0
+
+
+
+
+[2017.02.08-01.35.33:062][339]LogExit: Executing StaticShutdownAfterError
+[2017.02.08-01.35.33:224][339]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.02.08-01.35.33:224][339]Log file closed, 02/08/17 01:35:33
